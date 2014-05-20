@@ -1,0 +1,5 @@
+each c in data
+	each tag in c.tags
+		if (tag.type == "section")
+			h3= tag.name
+	p= c.code
